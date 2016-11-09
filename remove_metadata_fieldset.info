@@ -1,0 +1,11 @@
+name = Remove the fieldset wrapper from Islandora metadata
+description = Removes the collapsible fieldset that wraps the Islandora metadata.
+core = 7.x
+
+; Information added by Drupal.org packaging script on 2014-10-18
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "drupal_module_boilerplate"
+datestamp = "1413658731"
+
+scripts[] = js/remove_metadata_fieldset.js
