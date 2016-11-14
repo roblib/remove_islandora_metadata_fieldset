@@ -14,9 +14,8 @@
 
       console.log('Hello world');
 
-	  $('fieldset.islandora-metadata', context).removeClass( "collapsed" );
-      //$('fieldset.islandora-metadata .fieldset-legend', context).unwrap().wrap( '<h2 class="metadata label"></h2>' );
-      //$('fieldset.islandora-metadata .fieldset-wrapper', context).unwrap().addClass( "metadata" );
+	  $('fieldset.islandora-metadata .fieldset-legend', context).unwrap().wrap( '<h2 class="metadata label"></h2>' );
+	  $('fieldset.islandora-metadata .fieldset-wrapper', context).unwrap().addClass( "metadata" );
 
     }
   };
